@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="org.apache.tomcat:com.springsource.org.apache.tomcat.api:7.0.12" type="repository">
+    <properties maven-id="org.apache.tomcat:com.springsource.org.apache.tomcat.api:7.0.12" />
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/lib/com.springsource.org.apache.tomcat.api-7.0.12.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/javax.servlet-3.0.0.v201103241009.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
