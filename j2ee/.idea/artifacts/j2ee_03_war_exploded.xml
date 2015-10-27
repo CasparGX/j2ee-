@@ -1,0 +1,17 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="j2ee-03:war exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/j2ee_03_war_exploded</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="j2ee/web/Web" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="j2ee" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="file-copy" path="$PROJECT_DIR$/json-lib-0.9.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/dom4j-1.6.jar" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>

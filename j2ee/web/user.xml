@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE user[
+        <!ELEMENT user  (allow,ban)>
+        <!ELEMENT allow (username,password)>
+        <!ELEMENT username (#PCDATA)>
+        <!ELEMENT password (#PCDATA)>
+        <!ELEMENT ban   (username2)>
+        <!ELEMENT username2 (#PCDATA)>
+        ]>
+<user>
+    <allow>
+        <username>admin</username>
+        <password>admin</password>
+    </allow>
+    <ban>
+        <username2>null</username2>
+    </ban>
+    <ban>
+        <username2>123</username2>
+    </ban>
+</user>
